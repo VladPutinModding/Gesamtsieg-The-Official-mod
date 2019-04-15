@@ -254,8 +254,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 0 0 100 }
+	color_ui = rgb { 0 0 100 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
@@ -476,8 +476,12 @@ CSA = {
 	color_ui = rgb { 186 205 219 }
 }
 QUE = {
-	color - rgb { 0 0 180 }
-	color_ui = rgb { 0 0 220 }
+	color = rgb { 0 0 180  }
+	color_ui = rgb { 0 0 220  }
+}
+FAC = {
+	color = rgb { 0 0 150  }
+	color_ui = rgb { 0 0 150  }
 }
 D01 = {
 	color = rgb { 200 100 31 }

@@ -3,7 +3,8 @@ state={
 	name="STATE_972"
 
 	history={
-		owner = USA
+		owner = FAC
+		add_core_of = FAC
 		buildings = {
 			infrastructure = 3
 

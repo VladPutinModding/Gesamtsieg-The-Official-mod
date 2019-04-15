@@ -5,7 +5,8 @@ state={
 
 	history={
 		add_core_of = PUE
-		owner = USA
+		add_core_of = FAC
+		owner = FAC
 		victory_points = {
 			1440 1 
 		}
