@@ -1,5 +1,145 @@
 ﻿capital = 361
 
+PHI = {
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 15
+		}
+
+		fascism = { 
+			popularity = 20
+		}
+
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = { 
+			popularity = 60
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+}
+
+QUE = {
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = { 
+			popularity = 60
+		}
+
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = { 
+			popularity = 15
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+}
+
+MEX = {
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 10
+		}
+
+		fascism = { 
+			popularity = 70
+		}
+
+		communism = {
+			popularity = 10
+		}
+		
+		neutrality = { 
+			popularity = 10
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+}
+
+FAC = {
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 5
+		}
+
+		fascism = { 
+			popularity = 70
+		}
+
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = { 
+			popularity = 20
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+}
+
+SCO = {
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = { 
+			popularity = 70
+		}
+
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = { 
+			popularity = 5
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+}
+
 oob = "USA_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -97,17 +237,11 @@ if = {
 }
 
 #Monroe Doctrine
-give_guarantee = CAN
-give_guarantee = MEX
-give_guarantee = CUB
-give_guarantee = HAI
-give_guarantee = DOM
 give_guarantee = GUA
 give_guarantee = HON
 give_guarantee = ELS
 give_guarantee = NIC
 give_guarantee = COS
-give_guarantee = PAN
 give_guarantee = VEN
 give_guarantee = COL
 give_guarantee = ECU
@@ -263,11 +397,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 39
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 60
 		}
 		
 		communism = {
@@ -276,7 +410,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -290,12 +424,55 @@ add_ideas = {
 	home_of_the_free
 }
 
-
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = MEX
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = FAC
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = QUE
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = SCO
+		autonomous_state = autonomy_puppet
+	}
+	else = {
+		set_autonomy = {
+			target = PHI
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = MEX
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = FAC
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = QUE
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = SCO
+			autonomous_state = autonomy_puppet
+		}
+	}
 }
+
+
 
 1939.1.1 = {
 
