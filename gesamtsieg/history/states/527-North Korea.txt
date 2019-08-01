@@ -8,14 +8,15 @@ state={
 	}
 
 	history={
-		owner = JAP
+		owner = KOR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			arms_factory = 1
+			industrial_complex = 2
 
 		}
 		victory_points = {
-			4052 10
+			4052 20
 		}
 		add_core_of = KOR
 
@@ -24,7 +25,7 @@ state={
 	provinces={
 		852 906 912 978 3912 4052 6963 7171 9790 9795 9899 9918 10065 11770 11775 11828 11835 11896 
 	}
-	manpower=5472200
+	manpower=9635100
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 }

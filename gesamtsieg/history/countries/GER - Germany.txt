@@ -282,27 +282,15 @@ create_import = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		national_socialism = {
-			popularity = 60
-		}
-		
-		communism = {
-			popularity = 20
-			banned = yes #default is no
-		}
-	}
-	
-	ruling_party = national_socialism
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
-
+}
+set_popularities = {
+	democratic = 20
+	fascism = 60
+	communism = 20
 }
 
 create_faction = Axis
@@ -1188,81 +1176,3 @@ create_equipment_variant = {
 	#	obsolete = yes
 	#}
 }
-
-SLO = {
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = { 
-			popularity = 100
-		}
-
-		communism = {
-			popularity = 0
-		}
-		
-		neutrality = { 
-			popularity = 0
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
-}
-}
-
-BAM = {
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		national_socialism = { 
-			popularity = 100
-		}
-
-		communism = {
-			popularity = 0
-		}
-		
-		neutrality = { 
-			popularity = 0
-		}
-	}
-	
-	ruling_party = national_socialism
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
-}
-}
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = SLO
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = BAM
-		autonomous_state = autonomy_puppet
-	}
-    else = {
-	set_autonomy = {
-		target = SLO
-		autonomous_state = autonomy_puppet
-    }
-	set_autonomy = {
-		target = BAM
-		autonomous_state = autonomy_puppet
-    }

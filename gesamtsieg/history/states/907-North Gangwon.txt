@@ -3,9 +3,9 @@ state={
 	name="STATE_907"
 
 	history={
-		owner = JAP
+		owner = KOR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
 		add_core_of = KOR
@@ -15,7 +15,7 @@ state={
 	provinces={
 		4004 9981 11958 
 	}
-	manpower=101000
+	manpower=662571
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

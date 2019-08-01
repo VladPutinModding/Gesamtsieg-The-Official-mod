@@ -1,145 +1,5 @@
 ﻿capital = 361
 
-PHI = {
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 15
-		}
-
-		fascism = { 
-			popularity = 20
-		}
-
-		communism = {
-			popularity = 5
-		}
-		
-		neutrality = { 
-			popularity = 60
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
-}
-}
-
-QUE = {
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = { 
-			popularity = 60
-		}
-
-		communism = {
-			popularity = 5
-		}
-		
-		neutrality = { 
-			popularity = 15
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
-}
-}
-
-MEX = {
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 10
-		}
-
-		fascism = { 
-			popularity = 70
-		}
-
-		communism = {
-			popularity = 10
-		}
-		
-		neutrality = { 
-			popularity = 10
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
-}
-}
-
-FAC = {
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 5
-		}
-
-		fascism = { 
-			popularity = 70
-		}
-
-		communism = {
-			popularity = 5
-		}
-		
-		neutrality = { 
-			popularity = 20
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
-}
-}
-
-SCO = {
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = { 
-			popularity = 70
-		}
-
-		communism = {
-			popularity = 5
-		}
-		
-		neutrality = { 
-			popularity = 5
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
-}
-}
-
 oob = "USA_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -237,11 +97,17 @@ if = {
 }
 
 #Monroe Doctrine
+give_guarantee = CAN
+give_guarantee = MEX
+give_guarantee = CUB
+give_guarantee = HAI
+give_guarantee = DOM
 give_guarantee = GUA
 give_guarantee = HON
 give_guarantee = ELS
 give_guarantee = NIC
 give_guarantee = COS
+give_guarantee = PAN
 give_guarantee = VEN
 give_guarantee = COL
 give_guarantee = ECU
@@ -390,30 +256,18 @@ give_guarantee = URG
 
 
 
-set_convoys = 400
+set_convoys = 500
 
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 39
-		}
-
-		fascism = {
-			popularity = 60
-		}
-		
-		communism = {
-			popularity = 1
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 99
+	communism = 1
 }
 
 add_ideas = {
@@ -424,75 +278,15 @@ add_ideas = {
 	home_of_the_free
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = PHI
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = MEX
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = FAC
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = QUE
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = SCO
-		autonomous_state = autonomy_puppet
-	}
-	else = {
-		set_autonomy = {
-			target = PHI
-			autonomous_state = autonomy_puppet
-		}
-		set_autonomy = {
-			target = MEX
-			autonomous_state = autonomy_puppet
-		}
-		set_autonomy = {
-			target = FAC
-			autonomous_state = autonomy_puppet
-		}
-		set_autonomy = {
-			target = QUE
-			autonomous_state = autonomy_puppet
-		}
-		set_autonomy = {
-			target = SCO
-			autonomous_state = autonomy_puppet
-		}
-	}
+
+# DIPLOMACY
+set_autonomy = {
+	target = PHI
+	autonomous_state =  autonomy_puppet
 }
 
-
-
 1939.1.1 = {
-
 	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 99
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 1
-				#banned = no #default is no
-			}
-		}
-		
 		ruling_party = democratic
 		last_election = "1936.11.3"
 		election_frequency = 48
@@ -1147,6 +941,24 @@ if = {
 			rear_1_custom_slot = ship_medium_battery_2
 		}
 	}
+	# Heavy Cruisers #
+		create_equipment_variant = {
+			name = "Wichita Class"
+			type = ship_hull_cruiser_2
+			name_group = USA_CA_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_3
+				mid_1_custom_slot = ship_airplane_launcher_1
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_medium_battery_2
+			}
+		}
 	# Battleships #
 	create_equipment_variant = {
 		name = "New York Class"					# represents Wyoming (Arkansas) and New York classes
@@ -1353,24 +1165,7 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-		# Heavy Cruisers #
-		create_equipment_variant = {
-			name = "Wichita Class"
-			type = ship_hull_cruiser_2
-			name_group = USA_CA_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_2
-				fixed_ship_armor_slot = ship_armor_cruiser_3
-				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = ship_anti_air_1
-				rear_1_custom_slot = ship_medium_battery_2
-			}
-		}
+		
 		# Battleships #
 		create_equipment_variant = {
 			name = "North Carolina Class"
