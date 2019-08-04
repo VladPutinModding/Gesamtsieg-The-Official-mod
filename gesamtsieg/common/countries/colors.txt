@@ -491,6 +491,18 @@ BAM = {
 	color = rgb { 30  30  30 }
 	color_ui = rgb { 30  30  30 }
 }
+PEK = {
+	color = rgb { 220  180  130 }
+	color_ui = rgb { 220  180  130 }
+}
+HKG = {
+	color = rgb { 165  150  100 }
+	color_ui = rgb { 165  150  100 }
+}
+SHG = {
+	color = rgb { 210  200  120 }
+	color_ui = rgb { 210  200  120 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

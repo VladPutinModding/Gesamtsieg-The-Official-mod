@@ -1,0 +1,3 @@
+PEK = "countries/Peking.txt"
+SHG = "countries/Shanghai.txt"
+HKG = "countries/HKG.txt"
