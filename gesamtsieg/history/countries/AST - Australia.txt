@@ -170,29 +170,21 @@ if = {
 	}
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 98
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 2
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = democratic
+set_politics = {	
+	ruling_party = fascism
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
-
+set_popularities = {
+	communism = 6
+	social_liberal = 17
+	conservative = 16
+	democratic = 14
+	social_conservatism = 2
+	neutrality = 5
+	fascism = 40
+}
 create_country_leader = {
 	name = "John Curtin"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
@@ -249,32 +241,6 @@ create_country_leader = {
 }
 
 set_convoys = 100
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 99
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 1
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1937.10.23"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-	set_convoys = 100
-}
 
 create_corps_commander = {
 	name = "Leslie Morshead"

@@ -5,7 +5,7 @@ state={
 	history={
 		owner = AST
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
 		add_core_of = AST
@@ -15,7 +15,7 @@ state={
 	provinces={
 		1526 2191 8200 10949 10969 10997 11011 12948 12962 12976 12990 
 	}
-	manpower=10400
+	manpower=30400
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

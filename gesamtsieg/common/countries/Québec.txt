@@ -3,4 +3,4 @@
 graphical_culture = northamerican_gfx
 graphical_culture_2d = northamerican_2d
 
-color = { 0  0  180 }
+color = { 13  35  156 }

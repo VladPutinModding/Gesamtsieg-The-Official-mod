@@ -1,4 +1,4 @@
-﻿capital = 336 #Kuala Lumpur
+﻿capital = 985 #Kuala Lumpur
 
 oob = "MAL_1936"
 
@@ -51,22 +51,25 @@ if = {
 }
 
 set_politics = {
+	
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		democratic = { 
-			popularity = 33
-		}
-
-#		fascism = {
-#		}
-		
-		communism = {
-			popularity = 33
-		}
-		neutrality = {
-			popularity = 34
-		}
-	}
+set_popularities = {
+	anarchism = 0
+	communism = 3
+	social_liberal = 2
+	conservative = 7
+	democratic = 0
+	social_conservatism = 8
+	neutrality = 10
+	monarchism = 0
+	fascism = 70
+	national_socialism = 0
+	national_occultism = 0
 }
 
 create_country_leader = {
@@ -112,8 +115,6 @@ create_country_leader = {
 		
 	}
 }
-
-set_cosmetic_tag = MAL_UK # British Malaya
 
 1939.1.1 = {
 	add_political_power = 1198

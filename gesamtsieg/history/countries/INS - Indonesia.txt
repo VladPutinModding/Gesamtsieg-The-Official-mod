@@ -24,24 +24,27 @@ set_technology = {
 
 set_convoys = 25
 
+
 set_politics = {
 
-	parties = {
-		democratic = { 
-			popularity = 10
-		}
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-		fascism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 30
-		}
-		neutrality = {
-			popularity = 50
-		}
-	}
+set_popularities = {
+	anarchism = 1
+	communism = 12
+	social_liberal = 2
+	conservative = 8
+	democratic = 0
+	social_conservatism = 17
+	neutrality = 4
+	monarchism = 1
+	fascism = 55
+	national_socialism = 0
+	national_occultism = 0
 }
 
 create_country_leader = {
@@ -114,8 +117,6 @@ if = {
 		logistics_skill = 3
 	}
 }
-
-set_cosmetic_tag = INS_HOL # Netherlands East Indies
 
 1939.1.1 = {
 	add_political_power = 1198

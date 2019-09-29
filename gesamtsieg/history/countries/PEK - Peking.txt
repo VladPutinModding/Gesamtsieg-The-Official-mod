@@ -1,4 +1,4 @@
-﻿capital = 594
+﻿capital = 608
 
 oob = "PEK_1936"
 
@@ -13,29 +13,24 @@ set_technology = {
 set_convoys = 100
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	anarchism = 0
+	communism = 0
+	social_liberal = 0
+	conservative = 8
+	democratic = 0
+	social_conservatism = 6
+	neutrality = 4
+	monarchism = 4
+	fascism = 78
+	national_socialism = 0
+	national_occultism = 0
 }
 
 create_country_leader = {

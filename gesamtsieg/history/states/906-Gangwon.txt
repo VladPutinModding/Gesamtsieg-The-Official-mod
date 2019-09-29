@@ -3,13 +3,13 @@ state={
 	name="STATE_906"
 
 	history={
-		owner = JAP
+		owner = KOR
 		buildings = {
 			infrastructure = 3
 
 		}
 		victory_points = {
-			7021 1 
+			7021 3 
 		}
 		add_core_of = KOR
 
@@ -18,7 +18,7 @@ state={
 	provinces={
 		1148 7021 9936 12011 
 	}
-	manpower=142002
+	manpower=731682
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

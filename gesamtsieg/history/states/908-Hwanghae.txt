@@ -3,9 +3,9 @@ state={
 	name="STATE_908"
 
 	history={
-		owner = JAP
+		owner = KOR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 
 		}
 		victory_points = {
@@ -18,7 +18,7 @@ state={
 	provinces={
 		1003 4107 7070 7155 11915 12040 
 	}
-	manpower=1201000
+	manpower=2352710
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

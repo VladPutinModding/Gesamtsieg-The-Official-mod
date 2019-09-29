@@ -1,0 +1,29 @@
+
+state={
+	id=991
+	name="STATE_991"
+	manpower = 2789076
+	
+	state_category = town
+	
+	resources={
+		rubber=6
+		tungsten=2
+	}
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			1488 3 
+		}
+		add_core_of = SIA
+	}
+
+	provinces={
+		1253 1488 1990 4496 7312 7353 7492 7531 7559 7572 7675 8045 10398 10371 12345
+	}
+}

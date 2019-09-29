@@ -12,6 +12,16 @@ ideologies = {
 
 			individualist_anarchism = {
 			}
+
+			anarcho_capitalism = {
+			}
+
+			libertarian_socialism = {
+			}
+
+			religious_anarchism = {
+			}
+
 		}
 		
 		dynamic_faction_names = {
@@ -22,10 +32,10 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 255 0 0 }
+		color = { 140 140 140 }
 		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 0.15		#won't have the mechanics to declare war in most cases
+		faction_impact_on_world_tension = 0.1
 		
 		ai_communist = yes # uses the commie AI behaviour
 		
@@ -65,6 +75,9 @@ ideologies = {
 			trotskyism = {
 			}
 
+			hoxhaism = {
+			}
+
 			titoism = {
 			}
 
@@ -74,7 +87,7 @@ ideologies = {
 			juche = {
 			}
 
-			luxemburgism = {
+			dengism = {
 			}
 		}
 		
@@ -86,10 +99,10 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 200 0 0 }
+		color = { 100 0 0 }
 		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 0.05		#mostly isolated in regions like Central Russia, not important
+		faction_impact_on_world_tension = 0.025
 		
 		ai_communist = yes # uses the commie AI behaviour
 		
@@ -101,10 +114,6 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
-		}
-		
-		modifiers = {
-			puppet_cost_factor = -0.3
 		}
 		
 		faction_modifiers = {
@@ -122,6 +131,9 @@ ideologies = {
 		
 			social_democracy = {
 			}
+		
+			progressivism = {
+			}
 
 			liberal_socialism = {
 			}
@@ -136,7 +148,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 0 200 0 }
+		color = { 0 130 90 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
@@ -190,7 +202,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 255 245 0 }
+		color = { 155 145 0 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
@@ -227,10 +239,7 @@ ideologies = {
 	
 		types = {
 			
-			neoconservatism = {
-			}
-
-			paleoconservatism = {
+			market_liberalism = {
 			}
 
 			libertarianism = {
@@ -239,14 +248,15 @@ ideologies = {
 			liberal_conservatism = {
 			}
 
-			christian_democracy = {
+			liberal_christian_democracy = {
 			}
 
 			classical_liberalism = {
 			}
 
-			neoliberalism = {
+			national_liberalism = {
 			}
+
 		}
 		
 		dynamic_faction_names = {
@@ -304,10 +314,13 @@ ideologies = {
 			national_conservatism = {
 			}
 
-			high_toryism = {
+			traditionalism = {
 			}
 
-			right_wing_populism = {
+			islamic_democracy = {
+			}
+
+			christian_democracy = {
 			}
 
 		}
@@ -358,7 +371,7 @@ ideologies = {
 	
 		types = {
 		
-			authoritarian  = {
+			authoritarian_democracy  = {
 			}
 			
 			military_junta = {
@@ -367,22 +380,22 @@ ideologies = {
 			islamic_nationalism = {
 			}
 
-			arab_nationalism = {
+			left_wing_nationalism = {
+			}
+
+			right_wing_authoritarianism = {
 			}
 
 			peronism = {
 			}
 			
-			b'aathism = {
+			baathism = {
 			}
 
 			third_international_theory = {
 			}
 
-            salafism = {
-			}
-
-			kemalism = {
+			theocracy = {
 			}
 		}
 
@@ -434,10 +447,10 @@ ideologies = {
 	
 		types = {
 		
-			monarchism_ideology  = {
+			absolute_monarchy  = {
 			}
 			
-			papal_theocracy = {
+			constitutional_monarchy = {
 			}
 			
 		}
@@ -495,6 +508,9 @@ ideologies = {
 			
 			classical_fascism = {
 			}
+
+			islamofascism = {
+			}
 			
 			falangism = {
 			}
@@ -508,7 +524,7 @@ ideologies = {
 			integralism = {
 			}
 
-            british_fascism = {
+            french_fascism = {
 			}
 
 			showa_statism = {
@@ -518,6 +534,21 @@ ideologies = {
 			}
 
 			thai_fascism = {
+			}
+
+			metaxism = {
+			}
+
+			mosleyism = {
+			}
+
+			hindutva = {
+			}
+
+			revisionist_maximalism = {
+			}
+
+			austrofascism = {
 			}
 
 			american_fascism = {
@@ -558,13 +589,13 @@ ideologies = {
 	
 		types = {
 		
-			national_socialism_ideology = {
-			}
-			
-			american_national_socialism = {
+			nazism = {
 			}
 			
 			strasserism = {
+			}
+
+			third_positionism = {
 			}
 
 			national_bolshevism = {
@@ -609,7 +640,10 @@ ideologies = {
 			national_occultism_ideology = {
 			}
 			
-			social_ultranationalism = {
+			esoteric_hitlerism = {
+			}
+
+			ultratheocracy = {
 			}
 
 		}

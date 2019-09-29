@@ -1,0 +1,29 @@
+
+state={
+	id=981
+	name="STATE_981"
+	manpower = 8092000	
+	state_category = large_city
+
+	history={
+		owner = SHG
+		victory_points = {
+			7014 25
+		}
+		victory_points = {
+			10076 5
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 5
+		}
+		add_core_of = SHG
+	}
+
+	provinces={
+	1089 4042 4091 7014 7120 10034 10076 11928 12052 12076 13142
+	}
+}

@@ -1,8 +1,8 @@
 state= {
 	id=593
 	name="STATE_593"
-	manpower = 12700000
-	state_category = town
+	manpower = 19690000
+	state_category = large_town
 	resources={
 		tungsten=15 # was: 20
 		steel= 15 # was: 20
@@ -10,30 +10,17 @@ state= {
 	}
 
 	history= {
-		owner = GXC
-		add_core_of = GXC
-		add_core_of = CHI
+		owner = HKG
+		add_core_of = HKG
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 2
 			9938 = {
 				naval_base = 1
 				coastal_bunker = 1
 				bunker = 1
 			}
-		}
-
-		1938.10.25 = {		
-			remove_core_of = GXC
-			owner = CHI
-			JAP = {
-				set_province_controller = 1202
-				set_province_controller = 4050
-				set_province_controller = 7108
-				set_province_controller = 9938
-				set_province_controller = 12095
-			} 			
 		}
 	}
 	provinces={

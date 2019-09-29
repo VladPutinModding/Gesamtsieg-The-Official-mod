@@ -2,7 +2,7 @@
 state={
 	id=565
 	name="STATE_565" # Bodaybo
-	manpower = 195325
+	manpower = 495325
 	state_category = rural
 	resources={
 		steel=10 # was: 32
@@ -10,11 +10,11 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = FEA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
-		add_core_of = SOV
+		add_core_of = FEA
 	}
 
 	provinces={

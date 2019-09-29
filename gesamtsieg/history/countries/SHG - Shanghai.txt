@@ -1,4 +1,4 @@
-﻿capital = 594
+﻿capital = 981
 
 oob = "SHG_1936"
 
@@ -13,29 +13,24 @@ set_technology = {
 set_convoys = 125
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	anarchism = 1
+	communism = 2
+	social_liberal = 6
+	conservative = 8
+	democratic = 2
+	social_conservatism = 3
+	neutrality = 6
+	monarchism = 2
+	fascism = 70
+	national_socialism = 0
+	national_occultism = 0
 }
 
 create_country_leader = {

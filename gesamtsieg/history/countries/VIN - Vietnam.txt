@@ -42,28 +42,25 @@ set_technology = {
 
 set_politics = {
 
-	parties = {
-		democratic = { 
-			popularity = 35
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 15
-		}
-		neutrality = {
-			popularity = 35
-		}
-	}
-
-	ruling_party = democratic
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
+
+set_popularities = {
+	anarchism = 0
+	communism = 5
+	social_liberal = 7
+	conservative = 2
+	democratic = 1
+	social_conservatism = 8
+	neutrality = 2
+	monarchism = 0
+	fascism = 75
+	national_socialism = 0
+	national_occultism = 0
+}	
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
@@ -72,7 +69,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology 
+	ideology = classical_fascism 
 	traits = {
 		
 	}

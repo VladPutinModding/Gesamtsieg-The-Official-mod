@@ -2,20 +2,21 @@
 state={
 	id=574
 	name="STATE_574" # Yakutsk
-	manpower = 407866
+	manpower = 1007866
 	
-	state_category = wasteland
+	state_category = town
 
 	history={
-		owner = SOV
+		owner = FEA
 		victory_points = {
-			10641 1
+			10641 5
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			industrial_complex = 1
 			air_base = 1
 		}
-		add_core_of = SOV
+		add_core_of = FEA
 	}
 
 	provinces={

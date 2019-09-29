@@ -1,0 +1,30 @@
+state=
+{
+	id=982
+	name="STATE_982"
+	manpower = 4765784
+	
+	state_category = large_town
+	history=
+	{
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+			air_base = 6
+			12068 = {
+				naval_base = 10
+			}
+		}
+
+		victory_points = {
+			12068 10 
+		}
+
+	}
+	provinces={
+		1091 1175 11914 11959 12027 12068
+		}
+}

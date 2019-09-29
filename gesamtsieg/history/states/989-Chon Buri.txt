@@ -1,0 +1,26 @@
+
+state={
+	id=989
+	name="STATE_989"
+	manpower = 2250763
+	
+	state_category = city
+	
+	resources={
+		rubber=8 # was: 10
+		tungsten=2 # was: 2
+	}
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SIA
+	}
+
+	provinces={
+		1244 4433 7225 7292 10293 12224
+	}
+}

@@ -1,16 +1,15 @@
 state={
 	id=725
 	name="STATE_725"
-	manpower=5785
+	manpower=23785
 	state_category = tiny_island
 
 	history={
-		owner = ENG
-		add_core_of = FIJ
+		owner = JAP
 		buildings = {
 			infrastructure = 3
 			13038 = {
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 		victory_points = {

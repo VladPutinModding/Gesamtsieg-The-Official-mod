@@ -1,0 +1,28 @@
+state={
+	id=983
+	name="STATE_983"
+	manpower = 191270
+	
+	state_category = pastoral
+	
+	resources={
+		rubber=5 # was: 10
+	}
+
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			7236 1 
+		}
+		add_core_of = SIA
+		add_core_of = MAL
+	}
+	
+	provinces={
+		1291 7342 12144
+	}
+}

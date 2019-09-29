@@ -2,14 +2,13 @@ state=
 {
 	id=615
 	name="STATE_615"
-	manpower = 11601000
+	manpower = 15201000
 	
-	state_category = town
+	state_category = large_town
 	
 	history=
 	{
-		owner = SHX
-		add_core_of = SHX
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
@@ -17,20 +16,8 @@ state=
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 2
-		}
-
-		1938.10.25 = {
-			#remove_core_of = SHX
-			owner = PRC
-			controller = JAP
-			PRC = {
-				set_province_controller = 1034
-				set_province_controller = 1531
-				set_province_controller = 4074
-				set_province_controller = 10367
-			}
 		}
 	}
 	provinces={
